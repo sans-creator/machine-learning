@@ -6,12 +6,12 @@ st.title("Streamlit Text Input")
 name=st.text_input("Enter your name:")
 
 
-age=st.slider("Select your age:",0,100,25)
+age=st.slider("Select your age:",0,100,25) #age between 0 to 100. 25  is 
 
 st.write(f"Your age is {age}.")
 
 options = ["Python", "Java", "C++", "JavaScript"]
-choice = st.selectbox("Choose your favorite language:", options)
+choice = st.selectbox("Choose your favorite language:", options) #select box is like drop down
 st.write(f"You selected {choice}.")
 
 if name:
